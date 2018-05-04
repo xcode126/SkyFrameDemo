@@ -1,0 +1,81 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* ic_launcher-web.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:23.+
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => housePropertyBroker\src\main\AndroidManifest.xml
+* assets\ => housePropertyBroker\src\main\assets\
+* libs\BaiduLBS_Android.jar => housePropertyBroker\libs\BaiduLBS_Android.jar
+* libs\fastjson-1.2.14.jar => housePropertyBroker\libs\fastjson-1.2.14.jar
+* libs\GetuiSDK2.9.0.0.jar => housePropertyBroker\libs\GetuiSDK2.9.0.0.jar
+* libs\hyphenatechat_3.1.4.jar => housePropertyBroker\libs\hyphenatechat_3.1.4.jar
+* libs\IndoorscapeAlbumPlugin.jar => housePropertyBroker\libs\IndoorscapeAlbumPlugin.jar
+* libs\MiPush_SDK_Client_3_0_3.jar => housePropertyBroker\libs\MiPush_SDK_Client_3_0_3.jar
+* libs\MobCommons-2016.0714.1402.jar => housePropertyBroker\libs\MobCommons-2016.0714.1402.jar
+* libs\MobTools-2016.0714.1402.jar => housePropertyBroker\libs\MobTools-2016.0714.1402.jar
+* libs\okhttp-3.2.0.jar => housePropertyBroker\libs\okhttp-3.2.0.jar
+* libs\okhttputils-1.6.6.jar => housePropertyBroker\libs\okhttputils-1.6.6.jar
+* libs\okio-1.6.0.jar => housePropertyBroker\libs\okio-1.6.0.jar
+* libs\ShareSDK-Core-2.7.4.jar => housePropertyBroker\libs\ShareSDK-Core-2.7.4.jar
+* libs\ShareSDK-Wechat-2.7.4.jar => housePropertyBroker\libs\ShareSDK-Wechat-2.7.4.jar
+* libs\ShareSDK-Wechat-Core-2.7.4.jar => housePropertyBroker\libs\ShareSDK-Wechat-Core-2.7.4.jar
+* libs\ShareSDK-Wechat-Favorite-2.7.4.jar => housePropertyBroker\libs\ShareSDK-Wechat-Favorite-2.7.4.jar
+* libs\ShareSDK-Wechat-Moments-2.7.4.jar => housePropertyBroker\libs\ShareSDK-Wechat-Moments-2.7.4.jar
+* libs\slidingmenu.jar => housePropertyBroker\libs\slidingmenu.jar
+* libs\universal-image-loader-1.9.5.jar => housePropertyBroker\libs\universal-image-loader-1.9.5.jar
+* res\ => housePropertyBroker\src\main\res\
+* src\ => housePropertyBroker\src\main\java\
+* show_head_toast_bg.9.PNG => show_head_toast_bg.9.png
+
+Missing Android Support Repository:
+-----------------------------------
+Some useful libraries, such as the Android Support Library, are
+installed from a special Maven repository, which should be installed
+via the SDK manager.
+
+It looks like this library is missing from your SDK installation at:
+null
+
+To install it, open the SDK manager, and in the Extras category,
+select "Android Support Repository". You may also want to install the
+"Google Repository" if you want to use libraries like Google Play
+Services.
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
